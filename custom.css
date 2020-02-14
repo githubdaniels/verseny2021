@@ -1,0 +1,76 @@
+@font-face
+{
+    font-family: arial-narrow;
+    src: url("fonts/arial-narrow.ttf");
+}
+@font-face
+{
+    font-family: clearlight;
+    src: url("fonts/clearlight.ttf");
+}
+body
+{
+    background-color: white;
+}
+/*THE HOUSE menu css-config:*/
+#nav_link_house
+{
+    background-color: #67ee90;
+}
+#nav_link_house:hover
+{
+    color: white;
+}
+#nav_link_house:active
+{
+    background-color: #67e900;
+}
+/*FLATS menu css-config */
+
+
+/*ENVIROMENT menu css-config*/
+
+
+/*CONTACT menu css-config*/
+
+/*MAP menu css-config*/
+
+/*main_picture*/
+#main_picture
+{
+    border: 0px;
+    width: 100%;
+    height: auto;
+}
+/*HOMES FOR LIFE formázása:*/
+/*#hfl_font
+{
+    position: absolute;
+    font-family: clearlight;
+    color: white;
+    text-align: center;
+    font-size: 62px;
+    margin-left: 60%;
+    margin-top: -540px;
+    opacity: 85%;
+    width: 260px;
+}*/
+#hfl_font
+{
+    position: absolute;
+    font-family: clearlight;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    font-size: 62px;
+    opacity: 70%;
+    height: 80px;
+    width: 250px;
+    margin-top: -560px;
+    margin-left: 60%;
+}
+#hfl_font_div
+{
+    height: 80px;
+    width: 250px;
+}
