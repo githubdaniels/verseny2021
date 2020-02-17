@@ -12,11 +12,16 @@
 
         <body>
             <!-- Feljéc !-->
-            <div class="container-fluid d-none d-md-block" style="background-color: #333333;">
-                <!-- Fejléc szöveg !-->
-                <div class="container">
-                    <!-- Fejléc bekezdésben !-->
-                    <p class="offset-6" style="color:white">"The most lucrative investment I have ever made" +36 1 555-5555 EN | HU</p>
+            <div class="container-fluid d-none d-md-block pt-3" style="background-color: #333333">
+
+                <div class="row">
+
+                    <div class="col"> 
+                        
+                        <p class="offset-6" style="color:white;">"The most lucrative investment I have ever made" +36 1 555-5555 EN | HU</p>
+
+                    </div>
+
                 </div>
             </div>
             <!-- NavBar  + beállításai !-->
@@ -24,39 +29,44 @@
 
                 <div class="container offset-1">
 
-                    <div class="row">
+                    <div class="row-fluid">
 
                         <nav class="navbar navbar-expand-sm bg-light navbar-light">
-                            <!-- Brand/logo -->
-                            <a class="navbar-brand" href="#" style="transform: skew(-20deg);">
-                              <img src="media_files/images/shanghai_park_logo.png" alt="logo" style="width:200px; background-color: white;margin-top: -50px;">
+                            <!-- Brand/logo Desktop! -->
+                            <a class="navbar-brand d-none d-md-block"  href="#" style="transform: skew(-20deg);">
+                              <img src="media_files/images/shanghai_park_logo.png" alt="logo" style="width:200px; background-color: white;">
+                            </a>
+                            
+                            <!-- Brand/logo Mobile! -->
+                            <a class="navbar-brand d-md-none"  href="#">
+                                <img src="media_files/images/shanghai_park_logo.png" alt="logo" style="width:200px; background-color: white;">
                             </a>
 
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
+                            <button class="navbar-toggler d-sm-block d-md-none" type="button" data-toggle="collapse" data-target="#collapse_target">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <!-- Links -->
                         <div class="collapse navbar-collapse" id="collapse_target">
                             <ul class="navbar-nav">
                                 <!-- THE HOUSE nav_link !-->
-                            <li id="nav_link_house" class="nav-item">
-                                <a id="nav_link_house" class="nav-link" href="#">THE HOUSE</a>
+                            <li id="nav_link" class="nav-item d-md-block">
+                                <a id="nav_link" class="nav-link d-md-block" href="#">THE HOUSE</a>
                               </li>
                                 <!-- FLATS nav_link !-->
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">FLATS</a>
+                              <li class="nav-item d-md-block">
+                                <a id="nav_link" class="nav-link d-md-block" href="#">FLATS</a>
                               </li>
                                 <!-- ENVIRONMENT nav_link !-->
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">ENVIRONMENT</a>
+                              <li class="nav-item d-md-block">
+                                <a id="nav_link" class="nav-link d-md-block" href="#">ENVIRONMENT</a>
                               </li>
                                 <!-- THE CONTACT nav_link !-->
-                              <li class="nav-item">
-                                  <a class="nav-link" href="#">CONTACT</a>
+                              <li class="nav-item d-md-block">
+                                  <a id="nav_link" class="nav-link d-md-block" href="#">CONTACT</a>
                               </li>
                                 <!-- MAP nav_link !-->
-                              <li class="nav-item">
-                                  <a class="nav-link" href="#">MAP</a>
+                              <li class="nav-item d-md-block">
+                                  <a id="nav_link" class="nav-link d-md-block" href="#">MAP</a>
                               </li>
 
                             </ul>
@@ -77,7 +87,7 @@
                 <!-- Megjegyzés: A HOMES FOR LIFE feliratot javítani kell,mert elcsúszik a megadott pozíciójához
                 képest!! !-->
                 <div class="row">
-                    <img  id="main_picture" class="img-fluid w-100" src="media_files/images/shanghai_park_building.png">
+                   <!--<img  id="main_picture" class="img-fluid w-100" src="media_files/images/shanghai_park_building.png"> !-->
                     <div id="hfl_font_text" class="col-sm-2"><p style="position: absolute;">HOMES FOR LIFE </p></div>
                 </div>
             </div>

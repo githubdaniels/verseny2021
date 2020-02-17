@@ -1,3 +1,4 @@
+/*Szövegstílusok dekralálása:*/
 @font-face
 {
     font-family: arial-narrow;
@@ -8,34 +9,28 @@
     font-family: clearlight;
     src: url("fonts/clearlight.ttf");
 }
+/*Body-ra vonatkozó alapvető formázás:*/
 body
 {
     background-color: white;
 }
 /*THE HOUSE menu css-config:*/
-#nav_link_house
+#nav_link
 {
-    background-color: #67ee90;
+    background-color: #ffffff;
+    color: #333333;
 }
-#nav_link_house:hover
+#nav_link:hover
 {
-    color: white;
+    background-color: #49b56a;
+    color: #ffffff;
 }
-#nav_link_house:active
+#nav_link:active
 {
-    background-color: #67e900;
+    background-color: #5dd782;
+    color: #ffffff;
 }
-/*FLATS menu css-config */
-
-
-/*ENVIROMENT menu css-config*/
-
-
-/*CONTACT menu css-config*/
-
-/*MAP menu css-config*/
-
-/*main_picture*/
+/*main_picture* ['shanghai_park_building']*/
 #main_picture
 {
     border: 0px;
@@ -43,34 +38,74 @@ body
     height: auto;
 }
 /*HOMES FOR LIFE formázása:*/
-/*#hfl_font
+#hfl_font_text
 {
-    position: absolute;
-    font-family: clearlight;
-    color: white;
-    text-align: center;
-    font-size: 62px;
+    height: 85px;
     margin-left: 60%;
-    margin-top: -540px;
-    opacity: 85%;
-    width: 260px;
-}*/
-#hfl_font
-{
-    position: absolute;
-    font-family: clearlight;
-    text-align: center;
+    margin-top: -550px;
+    opacity: 0.7;
     background-color: #333333;
     color: white;
+    font-family: clearlight;
     font-size: 62px;
-    opacity: 70%;
-    height: 80px;
-    width: 250px;
-    margin-top: -560px;
-    margin-left: 60%;
 }
 #hfl_font_div
 {
     height: 80px;
     width: 250px;
 }
+/*Shanghai_parkos_kisleírás formázása:*/
+#shanghai_park_cim
+{
+    font-size: 30px;
+    color: #67ee90;
+}
+
+/*FLATS menu css-config */
+#flats_cim
+{
+    font-size: 30px;
+    color: #67ee86;
+    text-align: right;
+    margin-top: 25px;
+}
+#flats_text
+{
+    color: white;
+    text-align: right;
+}
+#flats_button
+{
+    background-color: #67ee90;
+    color: white;
+}
+/*ENVIROMENT menu css-config*/
+#environments_cim
+{
+    color: #67ee90;
+    font-size: 30px;
+}
+/*GALLERY menu css-config*/
+#gallery_cim
+{
+    color: #67ee90;
+    font-size: 30px;
+    text-align: center;
+    /*Ide kell még a képek szürkítése + egyformára méretezni őket*/
+}
+/*CONTACT menu css-config*/
+#contact_cim
+{
+    font-size: 30px;
+    color: #67ee90;
+}
+#contact_phone_number
+{
+    color: #67ee90;
+}
+#send_message_btn
+{
+    background-color: #67ee90;
+    color: white;
+}
+/*MAP menu css-config*/
